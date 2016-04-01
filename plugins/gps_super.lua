@@ -20,8 +20,8 @@ end
 
 return {
   description = "Generate Map for GPS Coordinates", 
-  usage = "/gps (latitude,longitude) : generate map by gps cods",
-  patterns = {"^[!/]gps ([^,]*)[,%s]([^,]*)$"}, 
+  usage = "[#!/]gps (latitude,longitude) : generate map by gps cods",
+  patterns = {"^[#!/]gps ([^,]*)[,%s]([^,]*)$"}, 
   run = run 
 }
 
