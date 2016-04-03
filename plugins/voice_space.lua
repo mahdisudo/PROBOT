@@ -10,7 +10,6 @@ local text = matches[1]
     textc = text:trim()
     text,b = text:gsub(' ','.')
     
-    
   if msg.to.type == 'user' then 
       return nil
       else
@@ -24,13 +23,12 @@ end
 return {
   description = "text to voice",
   usage = {
-    "!voice [text]"
+    "[#!/]voice [text]"
   },
   patterns = {
     "^!voice +(.*)$",
     "^/voice +(.*)$",
 	"^#voice +(.*)$",
-
   },
   run = run
 }
