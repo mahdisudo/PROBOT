@@ -27,7 +27,7 @@ local function run(msg,matches)
 end
 return {
   patterns = {
-	"^[!/](image)$",
+	"^[#!/](image)$",
 	"%[(document)%]",
   },
   run = run,
