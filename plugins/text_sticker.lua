@@ -15,8 +15,8 @@ local size = URL.escape(matches[1])
 
   local receiver = get_receiver(msg)
   local title = "Edit LaTeX on www.codecogs.com/eqnedit.php?latex="..eq
-  local file = download_to_file(url,'hextor.webp')
-      send_document('chat#id'..msg.to.id, file, ok_cb , false)
+  local file = download_to_file(url,'probot.webp')
+      send_document(receiver, file, ok_cb , false)
 end
 
 return {
