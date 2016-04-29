@@ -50,11 +50,11 @@ return {
    description = "Broadcast message to all group participant.",
    usage = {
    	  admin = {
-   	  	"!kickall <chat_id> : Kick all users from group",
+   	  	"[#!/]kickall <chat_id> : Kick all users from group",
    	  	},
    },
    patterns = {
-      "^!(kickall) (%d+)$",
+      "^[#!/](kickall) (%d+)$",
    },
    run = run,
    moderated = true
