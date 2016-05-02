@@ -30,7 +30,7 @@ end
 local function tosticker(msg, success, result)
   local receiver = get_receiver(msg)
   if success then
-    local file = '/root/Sbss/stickers/'..msg.from.id..'.webp'
+    local file = '/root/TeleSeed/stickers/'..msg.from.id..'.webp'
     print('File downloaded to:', result)
     os.rename(result, file)
     print('File moved to:', file)
