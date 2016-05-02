@@ -100,12 +100,9 @@ end
 return {
   patterns = {
  "^[#!/]([Ss]ticker)$",
- "^([Ss]ticker)$",
  "%[(photo)%]",
- "^[#!/](file)$",
- "^([Ff]ile)$",
- "^[#!/](image)$",
- "^([Ii]mage)$",
+ "^[#!/]([Ff]ile)$",
+ "^[#!/]([Ii]mage)$",
  "%[(document)%]",
   },
   run = run,
