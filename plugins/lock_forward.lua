@@ -40,9 +40,9 @@ end
 end
 return {
     patterns = {
-        '[#!/](lock) Forwardfwd$',
-        '[#!/](unlock) Forward$',
-    '^[#!/]Forward (status)$',
+        '[#!/](lock) [Ff]orward$',
+        '[#!/](unlock) [Ff]orward$',
+    '^[#!/][Ff]orward (status)$',
     },
     run = run,
     pre_process = pre_process
