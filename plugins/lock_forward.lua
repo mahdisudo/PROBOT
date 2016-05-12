@@ -42,7 +42,7 @@ return {
     patterns = {
         '[#!/](lock) [Ff]orward$',
         '[#!/](unlock) [Ff]orward$',
-    '^[#!/][Ff]orward (status)$',
+    '^[#!/][Ff]orward ([Ss]tatus)$',
     },
     run = run,
     pre_process = pre_process
