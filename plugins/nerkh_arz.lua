@@ -18,9 +18,9 @@ elseif matches[1] == 'coin' then
 end
 return {
   description = "arz in now", 
-  usage = "arz",
+  usage = "[#!/]arz",
   patterns = {
-    "^[!/#](arz)$"
+    "^[#!/](arz)$"
   }, 
   run = run 
 }
