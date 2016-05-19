@@ -25,10 +25,10 @@ end
 return {
   description = "text to voice",
   usage = {
-    "!voice [text]"
+    "[#!/]voice [text]"
   },
   patterns = {
-    "^[/!#]voice +(.*)$",
+    "^[#!/]voice +(.*)$",
 
   },
   run = run
