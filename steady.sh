@@ -19,46 +19,8 @@
 # It should be able to recover the telegram bot in any case telegram-cli crashes, freezes or whatever.
 # This script works by tracing ctxt swithes value in kernel procces at a $RELOADTIME 
 # So it can detect any kind of kernel interruption with the procces and reload the bot.
-#
-#--------------------------------------------------
-#--    ▒▒▒▒▒▒▒▒▒                                --
-#--    ▒▒█████▒▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒█▒█▒▒▒█▒                                --
-#--    ▒▒██▒▒█▒▒                                --
-#--    ▒▒▒▒▒▒▒▒▒                                --
-#--    ▒███████▒                                --
-#--    ▒▒▒▒█▒▒█▒                                --
-#--    ▒▒▒▒█▒▒█▒                                --
-#--    ▒▒▒▒█▒▒█▒                                --
-#--    ▒▒▒▒▒██▒▒                                --
-#--    ▒▒▒▒▒▒▒▒▒                                --
-#--    ▒███████▒                                --
-#--    ▒▒▒▒▒▒█▒▒                                --
-#--    ▒▒▒▒██▒▒▒                                --
-#--    ▒▒▒▒▒▒█▒▒                                --
-#--    ▒███████▒                                --
-#--    ▒▒▒▒▒▒▒▒▒                                --
-#--    ▒▒█████▒▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒▒█████▒▒                                --
-#--    ▒▒▒▒▒▒▒▒▒                                --
-#--    ▒███████▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒█▒▒▒▒▒█▒                                --
-#--    ▒▒█████▒▒                                --
-#--    ▒▒▒▒▒▒▒▒▒                                --                
-#--                                              --                   
-#--------------------------------------------------
-#--                                              --
-#--       Developers: @CRUEL                     --
-#--                                              --
-#--                                              --
-#--------------------------------------------------
+
+
 
 
 # Some script variables
@@ -96,7 +58,7 @@ cat << EOF
  
 EOF
 echo -e "                \e[100m                Steady script           \e[00;37;40m"
-echo -e "               \e[01;34m                    by CRUEL M.KH                 \e[00;37;40m"
+echo -e "               \e[01;34m                    by Ali                 \e[00;37;40m"
 echo ""
 cat << EOF
  $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
@@ -122,11 +84,11 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
 
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -248,7 +210,7 @@ cat << EOF
  
 EOF
 echo -e "                \e[100m                Steady script           \e[00;37;40m"
-echo -e "               \e[01;34m                    by CRUEL M.KH                 \e[00;37;40m"
+echo -e "               \e[01;34m                    by Ali                 \e[00;37;40m"
 echo ""
 cat << EOF
  $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
@@ -274,11 +236,11 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
 # Starting preliminar setup
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -540,15 +502,15 @@ while getopts ":tsTSih" opt; do
 	i)
 	echo -e "\e[1m"
 	echo -e ""
-	echo "steady.sh bash script v1 CRUEL 2016 GPMOD" >&2
+	echo "steady.sh bash script v1 Ali 2016 PROB0T PR0B0T" >&2
 	echo ""
 	echo -e "\e[0m"
 
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
+echo -e "\033[38;5;208m @PROB0T    :)      @PR0B0T \033[0;00m"
 echo ""
 	exit 1
       ;;
@@ -589,5 +551,4 @@ echo ""
       exit 1
       ;;
   esac
-done
-
+done 
