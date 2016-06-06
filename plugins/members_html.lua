@@ -30,7 +30,7 @@ name = name..' 'user.last_name:gsub(' ','_')
 end
 text = text..'<tr><td align="center">'..i..'</td><td>'..name..'</td><td align="center">'..username..'</td><td align="center">'..phone..'</td><td align="center">'..user.id..'</td><td align="center">'..msgss..'</td></tr>'
 end
-text = text..'</table><br><br></font><font size=3 face=tahoma><b><a href="https://telegram.me/Sbss_Team" target="_blank">#Sbss_Team</a></b></center></font><br></body></html>'
+text = text..'</table><br><br></font><font size=3 face=tahoma><b><a href="https://telegram.me/PROB0T" target="_blank">#PROB0T</a></b></center></font><br></body></html>'
 local file = io.open('groups/members.htm','w')
 file:write(text)
 file:close()
@@ -45,8 +45,7 @@ end
 end
 return {
 patterns = {
-'^[Mm]embers (html)$',
-'^[!/#][Mm]embers (html)$'
+'^[#!/][Mm]embers (html)$'
 },
 run = run,
 }                     
